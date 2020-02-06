@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<title>Athlete Lab - Classes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("background1.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="pricing.html" class="w3-button w3-block w3-black">PRICING</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="contactus.html" class="w3-button w3-block w3-black">CONTACT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="team.html" class="w3-button w3-block w3-black">TEAM</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="faq.html" class="w3-button w3-block w3-black">FAQ</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"><a href="index.html" class="w3-button w3-block w3-black">Home</a></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Athlete Lab<br>Classes</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Opening Hours 6AM-9PM</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+  <!-- Navbar -->
+  <center>
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#cycling" class="w3-bar-item w3-button w3-padding-large">Cycling</a>
+      <a href="#yoga" class="w3-bar-item w3-button w3-padding-large">Yoga</a>
+      <a href="#strength" class="w3-bar-item w3-button w3-padding-large">Strength</a>
+        </div>
+      </div>
+    </center>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#cycling" class="w3-bar-item w3-button w3-padding-large">Cycling</a>
+    <a href="#yoga" class="w3-bar-item w3-button w3-padding-large">Yoga</a>
+    <a href="#strength" class="w3-bar-item w3-button w3-padding-large">Strength</a>
+  </div>
+
+<!-- CYCLING DESCRIPTION -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 id="cycling"class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CYCLING</span></h5>
+    <p><b>ENDURANCE ASSURANCE</b></p>
+    <img src="enduranceassurance.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Best fitted for beginners or those looking at a steady base ride, Endurance Assurance classes include intervals above 4 minutes  long that can also be used to prepare for races, or recuperate tired legs!</p>
+    <p>Focus: Base fitness, aerobic capacity, weight loss. </p>
+    <br>
+    <p><b>SUPER SPRINT INTERVALS</b></p>
+    <img src="supersprintintervals.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Time to go full gas! Short sprint intervals up to near all-out efforts, normally anywhere between 15-30 seconds with high repetitions and limited recovery time makes this the most adrenaline rushing class we offer. Perfect to wake those legs up!</p>
+    <p>Focus: Anaerobic capacity, explosiveness, acceleration.</p>
+    <br>
+    <p><b>IRONMANIA</b></p>
+    <img src="ironmania.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Ironmania classes are a mix of Endurance Assurance (Steady FTP blocks) & Hill Intervals (Inclined gradients). These combined efforts are designed to train both aerobic capacity and muscular strength!</p>
+    <p>Focus: Aerobic capacity, pedaling efficiency, muscle glycogen storage, weight loss.</p>
+    <br>
+    <p><b>HOUR OF POWER</b></p>
+    <img src="hourofpower.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Get your heads down, let the music take you over and hang in there! Hour of Power sessions are intervals ranging from 4-6 minutes long at a sustained pace above your threshold. These intervals can be over a fixed gradient or an FTP based block.</p>
+    <p>Focus: Oxygen consumption (Vo2 Max), cardiac output, lactate threshold.</p>
+    <br>
+    <p><b>HILL INTERVALS</b></p>
+    <img src="hillintervals.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Get climbing! Hill Intervals are inclined gradient efforts which can range anywhere from 3-10 minutes, focused on improving riders’ power to weight ratio, core strength and of course choosing the right gears to get over that hill.</p>
+    <p>Focus: Aerobic capacity, lactate threshold, core strength, climbing ability, pedaling efficiency.</p>
+    <br>
+    <p><b>MOUNTAIN MADNESS</b></p>
+    <img src="mountainmadness.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Welcome weekend warriors! Riding up to 2 hours long, Mountain Madness is our longest session available, challenging you to ride real life courses which includes long climbs, descends and rolling hills. This is the session to get you ready for that next triathlon or big race, especially when you’re up racing against everyone in the class!</p>
+    <p>Focus: Aerobic endurance, self pacing, gearing management, cardiac output.</p>
+    <br>
+    <p><b>RACE OF TRUTH</b></p>
+    <img src="raceoftruth.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Ready to race? Challenge yourself by going heads on with everyone else in the class. The session will be course structured where riders race with each other on real courses, complete with ascends and descends. Choosing the right gears and pushing yourself to your limit might crown you class champion!</p>
+    <p>Focus: Self pacing, gearing management.</p>
+    <br>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Enjoyed chasing the numbers through road simulation on the road bikes! There are friendly trainers who would be walking around to assist but the class is really self-reliant unlike spinning classes with instructors."</i></p>
+      <p>Hour Of Power with Ian</p>
+    </div>
+    <img src="cycling1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+<hr>
+
+<!-- YOGA DESCRIPTION -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 id="yoga" class="w3-center w3-padding-64"><span class="w3-tag w3-wide">YOGA</span></h5>
+    <p><b>FUNDAMENTALS</b></p>
+    <img src="fundamentals.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>The very basics of yoga will be covered in this class, with a focus of building a strong foundation for your practice. This is a multi level Hatha based class.</p>
+    <br>
+    <p><b>CORE</b></p>
+    <img src="core.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Work the major muscles in the body to build strength and stabilisation which results in enhanced athlete performance. Get ready to fire up that core! Inversions may be introduced.</p>
+    <br>
+    <p><b>RESTORATIVE YIN</b></p>
+    <img src="restorativeyin.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>A slower practice where poses are passively held for long periods of time. The aim is to calm the mind and nervous system as well as to improve flexibility by penetrating deep into the connective tissues and joints, helping to release tension, blockages and balancing the energy flow throughout the body.</p>
+    <br>
+    <p><b>FLOW</b></p>
+    <img src="flow.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>A dynamic and energetic class that helps you connect breath to movement and increasing the heart rate. Find yourself continuously moving through postures fluidly, encouraging focus and awareness. A consistent “Fundamentals” practice is highly recommended.</p>
+    <br>
+    <p><b>YOGA THERAPY</b></p>
+    <img src="therapy.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>A healing practice focusing on improving flexibility, range of movement, and bringing the body and mind back to a state of balance. Students will be guided to practice with proper alignment, engagement of the muscles and mindfulness in a functional way that works for their body.</p>
+    <br>
+    <p><b>ARM BALANCE AND INVERSIONS</b></p>
+    <img src="armbalance.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Power up your practice and explore arm balancing postures and/or inversions safely, with proper techniques and understanding. This is a challenging and stimulating class. A consistent Fundamentals, Core and Flow practice is recommended.</p>
+    <br>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Yoga for athletes - what a great concept, and unique to Singapore. Sheranne is awesome. Very warm and welcoming and encouraging, and not at all frustrated with me or judgmental for my lack of flexibility. Truly suited to all levels - this couldn't be more approachable."</i></p>
+      <p>Flow with Sheranne</p>
+    </div>
+    <img src="yoga1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+<hr>
+
+<!-- STRENGTH DESCRIPTION -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 id="strength" class="w3-center w3-padding-64"><span class="w3-tag w3-wide">STRENGTH</span></h5>
+    <p><b>KETTLEBELL ENDURANCE</b></p>
+    <img src="kettlebellendurance.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>A movement-based workout that is technique focused and while it can be intensely pumping, this class is suitable for all levels.</p>
+    <p>Key benefits include dynamic fat burning movements like kettlebell swings as well as slow conditioning moves like kettlebell cleans. This workout improves full core engagement, strength and stability as muscles work hard to keep joints aligned.</p>
+    <br>
+    <p><b>STRENGTH FOR ATHLETES</b></p>
+    <img src="strengthforathletes.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>A low impact session that concentrates on strengthening the muscles used for your posture during endurance races. This workout will also work on fast twitch muscles that are not usually trained during endurance cardio training, the same muscles needed for short power bursts on uphill rides or finish line sprints.</p>
+    <p>This exercise aims to complement a Triathlete’s intensive swim-bike-run training program by focusing on the major muscles activated in each of these disciplines. This is done by mimicking the various discipline movements, e.g Runner’s swing and Rotational mobility for swims and strong back and shoulders required for swimming or aero positions during a triathlon. These movements are also used in our everyday life, so come on in even if you aren't the racing sort!</p>
+    <br>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Favourite classpass I’ve taken yet! Jacq was attentive to form, workout was brutal, fun+small class size. Clean ambience and central location."</i></p>
+      <p>Kettlebell Endurance with Jacq</p>
+    </div>
+    <img src="strength1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+<hr>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
